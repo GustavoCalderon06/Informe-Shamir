@@ -1,16 +1,8 @@
 # Informe-Shamir
-
 Guía de Instalación y Uso
-Requisitos
+Requisitos del Sistema
 Python 3.x
-SymPy (instalable con pip install sympy)
+Paquete SymPy para operaciones algebraicas
 Instalación
-Instalar Python 3: Asegúrate de tener Python instalado. Puedes descargarlo desde python.org.
-Instalar dependencias: Ejecuta en la terminal:
-bash
-Copiar código
-pip install sympy
-Uso del Código
-Ejecuta el código para generar y dividir un secreto en partes.
-Generación de Partes: El código dividirá el secreto en n partes y te mostrará las partes generadas.
-Reconstrucción del Secreto: Utiliza un subconjunto de t partes para reconstruir el secreto. Si alguna parte es modificada, el sistema fallará en la reconstrucción, tal como está demostrado en la sección de pruebas del código.
+Instalar Python 3.x: Si no tienes Python instalado, descárgalo e instálalo desde python.org.
+Instalar SymPy: Ejecuta el siguiente comando en la terminal o en el CMD para instalar la biblioteca SymPy:
